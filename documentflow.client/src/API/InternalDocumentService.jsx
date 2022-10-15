@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = 'https://localhost:44343/api/InternalDocuments/';
+const url = 'http://smirnovp76.somee.com/api/yaInternalDocuments/';
 
 export const getInternalDocuments = async () => {
     return await axios.get(url);

@@ -22,7 +22,7 @@ namespace DocumentFlow.Server.Controllers
         [HttpGet("{path}")]
         public async Task<ActionResult<File>> GetFile(string path)
         {
-            string file_path = _appEnvironment.WebRootPath + "/Files/" + path;
+            string file_path = Environment.CurrentDirectory + "/Files/" + path;
 
             string file_type = "application/octet-stream";
 
@@ -38,7 +38,7 @@ namespace DocumentFlow.Server.Controllers
             var path = "/Files/" + uploadedFile["file"].FileName;
 
 
-            using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, FileMode.Create))
+            using (var fileStream = new FileStream(Environment.CurrentDirectory +path, FileMode.Create))
             {
                 uploadedFile["file"].CopyTo(fileStream);
 
@@ -58,11 +58,11 @@ namespace DocumentFlow.Server.Controllers
                 var sign = BitConverter.ToString(digSing.SignMessage(System.Text.Encoding.Default.GetBytes(fileStream.ReadToEnd()),
                                                     BigInteger.Parse(certStream.ReadLine())));
 
-                using (var signStream = new StreamWriter(_appEnvironment.WebRootPath + "/Files/" + uploadedFile["file"].FileName + "_подпись.txt"))
+                using (var signStream = new StreamWriter(Environment.CurrentDirectory + "/Files/" + uploadedFile["file"].FileName + "_подпись.txt"))
                 {
                     signStream.WriteLine(sign);
                 }
-                file.FileName = uploadedFile["file"].FileName + "_подпись.txt";
+                file.SignName = uploadedFile["file"].FileName + "_подпись.txt";
                 file.SignPath = path + "_подпись.txt";
             }
 

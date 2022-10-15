@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = 'https://localhost:44343/api/Positions/';
+const url = 'http://smirnovp76.somee.com/api/Positions/';
 
 export const getPositions = async () => {
     return await axios.get(url);

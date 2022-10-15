@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = 'https://localhost:44343/api/Files/';
+const url = 'http://smirnovp76.somee.com/api/Files/';
 
 export const postFile = async (file) => {
     const config = { headers: { 'Content-Type': 'multipart/form-data' } };
