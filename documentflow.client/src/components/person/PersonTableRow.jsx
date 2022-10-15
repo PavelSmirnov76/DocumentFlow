@@ -2,7 +2,7 @@ import React from 'react';
 import MyButton from '../UI/button/MyButton'
 import {deletePerson} from '../../API/PersonService'
 
-const PersonItem = (props) => {
+const PersonTableRow = (props) => {
 
     const removePerson = async () => {
         await deletePerson(props.person.id);
@@ -22,4 +22,4 @@ const PersonItem = (props) => {
     );
 };
 
-export default PersonItem;
+export default PersonTableRow;

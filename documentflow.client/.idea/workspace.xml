@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c7e5e20-4d0b-483b-97cd-f5133bd092f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/API/EmployeeService.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/FileService.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/InternalDocumentService.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/PersonService.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/PositionService.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/StateService.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API/VerificationSignatureService.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EditingPanel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/button/MyButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/button/MyButton.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/input/MyInput.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/modal/MyModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/modal/MyModal.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employee/EmployeeForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employee/EmployeeTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employee/EmployeeTableRow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/internalDocument/InternalDocumentDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/internalDocument/InternalDocumentForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/internalDocument/InternalDocumentTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/internalDocument/InternalDocumentTableRow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/person/PersonForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/person/PersonTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/person/PersonTableRow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/position/PositionDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/position/PositionForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/position/PositionTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/position/PositionTeableRow.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/EmployeePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/InternalDocumentPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PersonPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PositionPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/VerificationSignaturePage.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Fu5KEE31amfNJ02FlnOkW22VFl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cocac/source/repos/DocumentFlow/documentflow.client/src/components/UI&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cocac\source\repos\DocumentFlow\documentflow.client\src\components\UI" />
+      <recent name="C:\Users\cocac\source\repos\DocumentFlow\documentflow.client\src\components\position" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c7e5e20-4d0b-483b-97cd-f5133bd092f3" name="Changes" comment="" />
+      <created>1665329062172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665329062172</updated>
+      <workItem from="1665329063361" duration="18531000" />
+      <workItem from="1665398380574" duration="5718000" />
+      <workItem from="1665407116502" duration="12428000" />
+      <workItem from="1665487112418" duration="11858000" />
+      <workItem from="1665569349413" duration="19924000" />
+      <workItem from="1665728760582" duration="4418000" />
+      <workItem from="1665823908528" duration="8573000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

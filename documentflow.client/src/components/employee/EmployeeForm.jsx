@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import MyButton from '../UI/button/MyButton'
-import MyInput from '../UI/input/MyInput'
 import {postEmployee} from '../../API/EmployeeService'
 import Dropdown from 'react-bootstrap/Dropdown';
 import {getPersons} from "../../API/PersonService";
@@ -77,9 +76,6 @@ const EmployeeForm = ({create}) => {
                     {positions.map(p => <Dropdown.Item onClick={changeNameDropDownPosition} key = {p.id}>{p.id + ' ' + p.name}</Dropdown.Item>)}
                 </Dropdown.Menu>
             </Dropdown>
-            <MyInput value={employee.isSignatory} onChange={e => setEmployee({...employee, isSignatory : e.target.value})} type="text" placeholder="Подписант"/>
-            <MyInput value={employee.isСoordinating} onChange={e => setEmployee({...employee, isСoordinating : e.target.value})} type="text" placeholder="Согласующий"/>
-            <MyInput value={employee.isAddressee} onChange={e => setEmployee({...employee, isAddressee : e.target.value})} type="text" placeholder="Адресат"/>
             <MyButton onClick={addNewEmployee}>Добавить</MyButton>
         </form>
     );

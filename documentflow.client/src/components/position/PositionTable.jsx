@@ -1,7 +1,7 @@
 import React from 'react';
-import PositionItem from './PositionItem'
+import PositionTeableRow from './PositionTeableRow'
 
-const PositionList = (props) => {
+const PositionTable = (props) => {
 
     return (
         <div>
@@ -14,11 +14,11 @@ const PositionList = (props) => {
                 </tr>
                 </thead>
                 <tbody>
-                {props.positions.map(position => <PositionItem remove={props.remove} position={position} key = {position.id}/>)}
+                {props.positions.map(position => <PositionTeableRow showModalDetail={props.showModalDetail} remove={props.remove} position={position} key = {position.id}/>)}
                 </tbody>
             </table>
         </div>
     );
 };
 
-export default PositionList;
+export default PositionTable;

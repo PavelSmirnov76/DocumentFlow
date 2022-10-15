@@ -10,9 +10,6 @@ const EmployeeTable = (props) => {
                 <tr>
                     <th scope="col">ФИО</th>
                     <th scope="col">Должность</th>
-                    <th scope="col">Подписант</th>
-                    <th scope="col">Согласующий</th>
-                    <th scope="col">Адресат</th>
                 </tr>
                 </thead>
                 <tbody>
