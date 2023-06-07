@@ -1,6 +1,6 @@
 ﻿namespace DocumentFlow.Server.Models.Patch
 {
-    public abstract class PatchDtoBase
+    public abstract class DtoBase
     {
         private List<string> PropertiesInHttpRequest { get; set; }
             = new List<string>();

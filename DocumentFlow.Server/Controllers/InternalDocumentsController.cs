@@ -85,8 +85,6 @@ namespace DocumentFlow.Server.Controllers
                 oldDocument.Author = documentDto.Author;
             if (documentDto.IsFieldPresent(nameof(documentDto.State)))
                 oldDocument.State = documentDto.State;
-            if (documentDto.IsFieldPresent(nameof(documentDto.Created)))
-                oldDocument.Created = documentDto.Created;
 
             await _context.SaveChangesAsync();
 

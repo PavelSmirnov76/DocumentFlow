@@ -81,12 +81,6 @@ namespace DocumentFlow.Server.Controllers
                 oldEmployee.Person = employeeDto.Person;
             if (employeeDto.IsFieldPresent(nameof(employeeDto.Position)))
                 oldEmployee.Position = employeeDto.Position;
-            if (employeeDto.IsFieldPresent(nameof(employeeDto.IsSignatory)))
-                oldEmployee.IsSignatory = employeeDto.IsSignatory;
-            if (employeeDto.IsFieldPresent(nameof(employeeDto.IsСoordinating)))
-                oldEmployee.IsСoordinating = employeeDto.IsСoordinating;
-            if (employeeDto.IsFieldPresent(nameof(employeeDto.IsAddressee)))
-                oldEmployee.IsAddressee = employeeDto.IsAddressee;
 
             await _context.SaveChangesAsync();
 

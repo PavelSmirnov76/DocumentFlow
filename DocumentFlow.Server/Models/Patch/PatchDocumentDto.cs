@@ -2,7 +2,7 @@
 
 namespace DocumentFlow.Server.Models.Patch
 {
-    public class PatchDocumentDto : PatchDtoBase
+    public class PatchDocumentDto : DtoBase
     {
         public string? Hedder { get; set; }
         public Employee? Author { get; set; }

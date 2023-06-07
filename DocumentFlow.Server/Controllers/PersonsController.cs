@@ -81,8 +81,6 @@ namespace DocumentFlow.Server.Controllers
                 oldPerson.FullName = personDto.FullName;
             if (personDto.IsFieldPresent(nameof(personDto.Sex)))
                 oldPerson.Sex = personDto.Sex;
-            if (personDto.IsFieldPresent(nameof(personDto.DateBirth)))
-                oldPerson.DateBirth = personDto.DateBirth;
             if (personDto.IsFieldPresent(nameof(personDto.PhoneNumber)))
                 oldPerson.PhoneNumber = personDto.PhoneNumber;
 

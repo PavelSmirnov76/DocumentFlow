@@ -1,6 +1,6 @@
 ﻿namespace DocumentFlow.Server.Models.Patch
 {
-    public class PatchPersonDto : PatchDtoBase
+    public class PatchPersonDto : DtoBase
     {
         public string? FullName { get; set; }
         public string? Sex { get; set; }

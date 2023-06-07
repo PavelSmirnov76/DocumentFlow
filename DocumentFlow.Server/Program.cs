@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<DocumentFlowServerContext>(options =>
-    options.UseSqlServer("workstation id=DocumentFlow.mssql.somee.com;packet size=4096" +
-    ";user id=SmirnovP76_SQLLogin_1;pwd=hmaw54pndu;data source=DocumentFlow.mssql." +
-    "somee.com;persist security info=False;initial catalog=DocumentFlow"));
+    options.UseSqlServer("Server=localhost;Database=documentflowDB;Trusted_Connection=True;"));
+
+//"workstation id=documentflowdb.mssql.somee.com;packet size=4096;user id=PavelSmirnov76_SQLLogin_1;" +
+//"pwd=ds3wuqc8qx;data source=documentflowdb.mssql.somee.com;persist security info=False;initial catalog=documentflowdb"
+
 
 
 builder.Services.AddCors(); // Make sure you call this previous to AddMvc

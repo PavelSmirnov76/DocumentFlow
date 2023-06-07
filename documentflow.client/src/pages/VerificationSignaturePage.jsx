@@ -29,7 +29,7 @@ const VerificationSignaturePage = () => {
     const uploadSign = (event) => {
         event.preventDefault();
         if (event.target.files[0]) {
-            setSign(event.target.files[0]);
+            setSign(event.target.files[0]);n
         }
     };
 

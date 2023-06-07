@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c7e5e20-4d0b-483b-97cd-f5133bd092f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../DocumentFlow.Server/Controllers/FilesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DocumentFlow.Server/Controllers/FilesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DocumentFlow.Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../DocumentFlow.Server/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/EmployeeService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/EmployeeService.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/FileService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/FileService.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/InternalDocumentService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/InternalDocumentService.jsx" afterDir="false" />
@@ -11,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/src/API/PositionService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/PositionService.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/StateService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/StateService.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API/VerificationSignatureService.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/VerificationSignatureService.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/VerificationSignaturePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/VerificationSignaturePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/documentflow.client",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cocac/source/repos/DocumentFlow/documentflow.client&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cocac\source\repos\DocumentFlow\documentflow.client\src\components\UI" />
@@ -79,6 +81,9 @@
       <workItem from="1665728760582" duration="4418000" />
       <workItem from="1665823908528" duration="11767000" />
       <workItem from="1665855295969" duration="146000" />
+      <workItem from="1685626753354" duration="3297000" />
+      <workItem from="1685692766927" duration="1447000" />
+      <workItem from="1686126861599" duration="2114000" />
     </task>
     <servers />
   </component>
